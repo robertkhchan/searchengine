@@ -8,7 +8,7 @@ from TFIDFCalculator import TFIDFCalculator
 from math import log
 
 
-class TestMyTFIDF(TestCase):
+class TestTFIDFCalculator(TestCase):
     
     def testGetTF(self):
         allTermsInDocument = ["hello","world"]
